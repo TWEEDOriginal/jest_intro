@@ -14,10 +14,24 @@
      ```sh
     $ npm install
     ```
+3. Run all tests using the below command:
 
-    npm run test
+     ```sh
+    $ npm run test
+    ```
 
-    link to jest docs
+4. To run tests individually:     
 
-    npm install jest --global (for running jest in cmd)
-    jest clone_array
+    - install jest globally using the command:
+
+     ```sh
+     $ npm install jest --global
+      ```
+
+     - Run the test:
+
+    ```sh
+     $ jest script-name
+      ```    
+
+Visit [the official jest documentation](https://jestjs.io/docs/getting-started) for more information.
